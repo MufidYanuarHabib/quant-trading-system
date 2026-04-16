@@ -1,29 +1,49 @@
 # 📘 Trading Journal Tools
 
-This module contains tools for recording, analyzing, and improving trading performance through structured data tracking.
+---
+
+## 📂 Files
+
+### trading_journal.py (v1)
+
+- Trade logging and history tracking  
+- Basic performance metrics (PnL, win rate)  
+- Simple trade record system  
+- Manual journal input  
+
+---
+
+### trading_journal_v2.py (v2)
+
+- Advanced performance metrics (Sharpe Ratio, volatility)  
+- Risk-adjusted analysis  
+- Equity curve tracking  
+- Monthly performance reporting  
+
+---
+
+### trading_journal_v3.py (v3)
+
+- Extended analytics system  
+- Behavioral tracking (emotion / discipline notes)  
+- Advanced performance breakdown  
+- Strategy evaluation support  
+
+---
 
 ## 📌 Overview
 
+This module contains tools for recording, analyzing, and improving trading performance through structured data tracking.
+
 The journal system is designed to transform raw trade logs into actionable insights. It focuses on performance evaluation, risk awareness, and behavioral tracking.
 
-## ⚙️ Features
-
-- Trade logging and history tracking  
-- Performance metrics (PnL, win rate, etc.)  
-- Risk-adjusted analysis (Sharpe Ratio, volatility)  
-- Equity curve visualization  
-- Monthly performance reporting  
-- Trade notes and emotion tracking  
+---
 
 ## 🧠 Purpose
 
 To help traders develop consistency, discipline, and data-driven decision-making by analyzing both quantitative performance and psychological factors.
 
-## 📂 Files
-
-- `trading_journal.py` — basic trade logging system  
-- `trading_journal_v2.py` — advanced metrics and risk analysis  
-- `trading_journal_v3.py` — extended analytics and behavioral tracking  
+---
 
 ## 🚀 Future Improvements
 
