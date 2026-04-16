@@ -23,7 +23,7 @@ To validate trading ideas using data-driven methods and reduce the risk of deplo
 
 ## 📂 Files
 
-• `backtest.py` — core backtesting logic  
+• `backtest_engine.py` — core backtesting logic  
   - CSV-based OHLC data loader  
   - Manual trade input (Buy / Sell)  
   - Stop Loss & Take Profit logic  
