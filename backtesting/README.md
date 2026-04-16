@@ -1,9 +1,40 @@
 # 📊 Backtesting Engine
 
+---
+
+## 📂 Files
+
+### backtest_engine.py (v1)
+
 - Strategy simulation on historical data  
-- Performance metrics calculation  
-- Trade-by-trade analysis  
 - Basic risk evaluation  
+- Trade-by-trade analysis  
+- Winrate & PnL calculation  
+
+- CSV-based OHLC data loader  
+- Manual trade input (Buy / Sell)  
+- Stop Loss & Take Profit logic  
+- CLI menu system (loop + exit)  
+
+---
+
+### backtest_engine_v2.py (v2)
+
+- Equity curve tracking  
+- Improved SL/TP conflict handling  
+- Better risk management system  
+- Trade journal export (CSV)  
+- Enhanced performance metrics  
+
+---
+
+### backtest_engine_v3.py (v3)
+
+- Multi-asset backtesting support  
+- Transaction cost & slippage simulation  
+- Walk-forward analysis system  
+- Monte Carlo simulation  
+- Advanced performance analytics  
 
 ---
 
@@ -21,21 +52,8 @@ To validate trading ideas using data-driven methods and reduce the risk of deplo
 
 ---
 
-## 📂 Files
-
-• `backtest_engine.py` — core backtesting logic  
-  - CSV-based OHLC data loader  
-  - Manual trade input (Buy / Sell)  
-  - Stop Loss & Take Profit logic  
-  - Risk-based position sizing  
-  - Winrate & PnL calculation  
-  - CLI menu system (loop + exit)  
-
----
-
 ## 🚀 Future Improvements
 
-- Multi-asset backtesting  
-- Slippage and transaction cost modeling  
-- Walk-forward analysis  
-- Monte Carlo simulation
+- Live market data integration (API)  
+- Strategy optimization engine  
+- Portfolio-level backtesting
