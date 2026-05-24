@@ -31,6 +31,14 @@
 
 ---
 
+### trading_journal_v4.py (v4)
+- Safer input handling
+- Data filtering by trading pair
+- Best trade & worst trade performance ttracking
+- Fixed bugs and indentation issues that were breaking the flow
+
+---
+
 ## 📌 Overview
 
 This module contains tools for recording, analyzing, and improving trading performance through structured data tracking.
