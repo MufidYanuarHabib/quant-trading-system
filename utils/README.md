@@ -1,4 +1,4 @@
-# 📁 utils/
+📁 utils/
 
 ## 📖 Dictionary
 Folder ini berisi kumpulan utility tools (helper functions) yang digunakan untuk mendukung sistem quant trading.
@@ -25,6 +25,25 @@ Features:
 
 ---
 
+### 📊 position_size_trade_spot_v1.py
+Position Size Calculator untuk spot trading (tanpa leverage).
+
+Tool ini membantu menentukan ukuran posisi yang sesuai berdasarkan account balance, risk per trade, entry price, dan stop loss sehingga risiko tetap terkontrol sesuai batas yang ditentukan.
+
+Features:
+- Account balance input
+- Fixed risk percentage
+- Risk amount calculation
+- Entry price and stop loss input
+- Risk per unit calculation
+- Position size calculation
+- Capital required calculation
+- BUY / SELL support
+- Input validation
+- Insufficient balance warning
+- Spot trading focused (no leverage)
+
+---
 
 ## 🎯 Tujuan
 - Memisahkan strategy dan helper tools
