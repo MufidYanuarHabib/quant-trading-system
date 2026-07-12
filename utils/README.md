@@ -1,74 +1,85 @@
 # 📁 utils/
 
 ## 📖 Dictionary
-Folder ini berisi kumpulan utility tools (helper functions) yang digunakan untuk mendukung sistem quant trading.
 
-Isi folder ini bukan strategi utama, melainkan fungsi pendukung seperti risk management, position sizing, indikator, signal filter, validasi, dan tools analisis statistik.
+This folder contains a collection of utility tools (helper functions) designed to support a quantitative trading system.
 
-Tujuan utama folder ini adalah membuat sistem lebih modular, rapi, reusable, dan mudah dikembangkan.
+The tools inside this folder are not the main trading strategies. Instead, they provide supporting functionality such as risk management, position sizing, indicators, signal filtering, validation, and statistical analysis tools.
+
+The main purpose of this folder is to make the system more modular, organized, reusable, and easier to develop.
 
 ---
 
-## 🧰 Tools
+# 🧰 Tools
 
-### 🧠 math_helper_v1.py
-Lightweight Python command-line tool untuk basic statistical and financial data analysis.
+## 🧠 math_helper_v1.py
 
-Tool ini memproses input angka (space-separated) dan menghasilkan metrik statistik utama untuk analisis data cepat.
+A lightweight Python command-line tool for basic statistical and financial data analysis.
 
-**Fungsi utama:**
+This tool processes numerical input (space-separated values) and generates key statistical metrics for quick data analysis.
+
+**Main Features:**
 - Mean calculation
 - Median calculation
 - Variance calculation
-- Standard deviation
+- Standard deviation calculation
 - Log return calculation
 - Z-score normalization
 
-**Tech Stack:**
-- Python (Standard Library)
+---
 
-**Purpose:**
-Digunakan untuk eksplorasi data, pemahaman statistik dasar, dan konsep awal dalam quantitative finance.
+## 🧠 math_helper_v2.py
+
+An upgraded version with additional statistical analysis features.
+
+**New Features Added:**
+- Mode calculation
+- Range calculation
+- Minimum value detection
+- Maximum value detection
 
 ---
 
-### 🧠 risk_management_v1.py
-Basic risk management utility untuk menghitung manajemen risiko dalam trading system.
+## 🧠 risk_management_v1.py
 
-**Fungsi utama:**
-- Fixed risk percentage
+A basic risk management utility designed to calculate risk parameters for a trading system.
+
+**Main Features:**
+- Fixed risk percentage calculation
 - Risk amount calculation
 - Stop loss distance calculation
-- Position sizing
+- Position sizing calculation
 - Reward distance calculation
 - Take profit calculation
 - BUY / SELL support
 
 ---
 
-### 📊 position_size_trade_spot_v1.py
-Position size calculator untuk spot trading (tanpa leverage).
+## 📊 position_size_trade_spot_v1.py
 
-Tool ini membantu menentukan ukuran posisi berdasarkan account balance, risk per trade, entry price, dan stop loss sehingga risiko tetap terkontrol sesuai batas yang ditentukan.
+A position size calculator for spot trading without leverage.
 
-**Fungsi utama:**
+This tool helps determine the appropriate position size based on account balance, risk per trade, entry price, and stop loss level to maintain controlled risk exposure.
+
+**Main Features:**
 - Account balance input
 - Fixed risk percentage
-- Entry price & stop loss input
+- Entry price and stop loss input
 - Risk amount calculation
 - Risk per unit calculation
 - Position size calculation
-- Capital required calculation
+- Capital requirement calculation
 - BUY / SELL support
 - Input validation
 - Insufficient balance warning
-- Spot trading focus (no leverage)
+- Spot trading focused (no leverage)
 
 ---
 
-## 🎯 Tujuan
-- Memisahkan strategy dan helper tools  
-- Membuat sistem lebih modular  
-- Mudah dikembangkan dan di-maintain  
-- Reusable untuk berbagai strategi trading  
-- Mempermudah scaling project quant trading
+# 🎯 Objectives
+
+- Separate trading strategies from utility functions
+- Build a modular and structured trading system
+- Create reusable tools for different strategies
+- Improve maintainability and scalability
+- Support future quantitative trading development
