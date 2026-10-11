@@ -1,6 +1,6 @@
-# 📁 utils/
+📁 utils/
 
-## 📖 Dictionary
+📖 Dictionary
 
 This folder contains a collection of utility tools (helper functions) designed to support a quantitative trading system.
 
@@ -10,15 +10,16 @@ The main purpose of this folder is to make the system more modular, organized, r
 
 ---
 
-# 🧰 Tools
+🧰 Tools
 
-## 🧠 math_helper_v2.py
+🧠 math_helper_v2.py
 
 A lightweight Python command-line tool for basic statistical and financial data analysis.
 
 This tool processes numerical input (space-separated values) and generates key statistical metrics for quick data analysis.
 
-**Main Features:**
+Main Features:
+
 - Mean calculation
 - Median calculation
 - Variance calculation
@@ -32,11 +33,12 @@ This tool processes numerical input (space-separated values) and generates key s
 
 ---
 
-## 🧠 risk_management_v1.py
+🧠 risk_management_v1.py
 
 A basic risk management utility designed to calculate risk parameters for a trading system.
 
-**Main Features:**
+Main Features:
+
 - Fixed risk percentage calculation
 - Risk amount calculation
 - Stop loss distance calculation
@@ -47,13 +49,14 @@ A basic risk management utility designed to calculate risk parameters for a trad
 
 ---
 
-## 📊 position_size_trade_spot_v1.py
+📊 position_size_trade_spot_v1.py
 
 A position size calculator for spot trading without leverage.
 
 This tool helps determine the appropriate position size based on account balance, risk per trade, entry price, and stop loss level to maintain controlled risk exposure.
 
-**Main Features:**
+Main Features:
+
 - Account balance input
 - Fixed risk percentage
 - Entry price and stop loss input
@@ -68,7 +71,27 @@ This tool helps determine the appropriate position size based on account balance
 
 ---
 
-# 🎯 Objectives
+📈 risk_reward_v1.py
+
+A basic Python command-line tool for calculating the risk-to-reward ratio and theoretical breakeven win rate based on entry price, stop loss, and take profit.
+
+Main Features:
+
+- Entry price input
+- Stop loss input
+- Take profit input
+- Risk distance calculation
+- Reward distance calculation
+- Risk-to-reward ratio calculation
+- Breakeven win rate calculation
+- Zero-risk validation
+- Zero-reward validation
+- Repeated calculations without restarting the program
+- Exit command
+
+---
+
+🎯 Objectives
 
 - Separate trading strategies from utility functions
 - Build a modular and structured trading system
