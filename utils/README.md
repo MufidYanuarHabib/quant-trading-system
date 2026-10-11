@@ -12,7 +12,7 @@ The main purpose of this folder is to make the system more modular, organized, r
 
 # 🧰 Tools
 
-## 🧠 math_helper_v1.py
+## 🧠 math_helper_v2.py
 
 A lightweight Python command-line tool for basic statistical and financial data analysis.
 
@@ -25,14 +25,6 @@ This tool processes numerical input (space-separated values) and generates key s
 - Standard deviation calculation
 - Log return calculation
 - Z-score normalization
-
----
-
-## 🧠 math_helper_v2.py
-
-An upgraded version with additional statistical analysis features.
-
-**New Features Added:**
 - Mode calculation
 - Range calculation
 - Minimum value detection
