@@ -4,34 +4,20 @@
 
 ## 📂 Files
 
-### trading_journal.py (v1)
+### trading_journal.py (v4)
 
 - Trade logging and history tracking  
 - Basic performance metrics (PnL, win rate)  
 - Simple trade record system  
 - Manual journal input  
-
----
-
-### trading_journal_v2.py (v2)
-
 - Advanced performance metrics (Sharpe Ratio, volatility)  
 - Risk-adjusted analysis  
 - Equity curve tracking  
 - Monthly performance reporting  
-
----
-
-### trading_journal_v3.py (v3)
-
 - Extended analytics system  
 - Behavioral tracking (emotion / discipline notes)  
 - Advanced performance breakdown  
 - Strategy evaluation support  
-
----
-
-### trading_journal_v4.py (v4)
 - Safer input handling
 - Data filtering by trading pair
 - Best trade & worst trade performance ttracking
