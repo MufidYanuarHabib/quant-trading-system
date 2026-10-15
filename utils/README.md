@@ -71,7 +71,7 @@ Main Features:
 
 ---
 
-📈 risk_reward_v1.py
+📈 risk_reward_v2.py
 
 A basic Python command-line tool for calculating the risk-to-reward ratio and theoretical breakeven win rate based on entry price, stop loss, and take profit.
 
@@ -88,6 +88,14 @@ Main Features:
 - Zero-reward validation
 - Repeated calculations without restarting the program
 - Exit command
+- Input Validation
+- Price Validation
+- BUY/SELL Selection
+- Position Validation
+- Function Modularization
+- Interactive Menu
+- Output Formatting
+- Risk-Reward Calculation
 
 ---
 
