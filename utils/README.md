@@ -12,7 +12,7 @@ The main purpose of this folder is to make the system more modular, organized, r
 
 🧰 Tools
 
-🧠 math_helper_v2.py
+1. math_helper_v2.py
 
 A lightweight Python command-line tool for basic statistical and financial data analysis.
 
@@ -33,7 +33,7 @@ Main Features:
 
 ---
 
-🧠 risk_management_v1.py
+2. risk_management_v1.py
 
 A basic risk management utility designed to calculate risk parameters for a trading system.
 
@@ -49,7 +49,7 @@ Main Features:
 
 ---
 
-📊 position_size_trade_spot_v1.py
+3. position_size_trade_spot_v1.py
 
 A position size calculator for spot trading without leverage.
 
@@ -71,7 +71,7 @@ Main Features:
 
 ---
 
-📈 risk_reward_v2.py
+4. risk_reward_v3.py
 
 A basic Python command-line tool for calculating the risk-to-reward ratio and theoretical breakeven win rate based on entry price, stop loss, and take profit.
 
@@ -96,6 +96,11 @@ Main Features:
 - Interactive Menu
 - Output Formatting
 - Risk-Reward Calculation
+- Improved input validation
+- BUY/SELL price validation
+- Cleaner function structure
+- Verified calculations
+- Improved output formatting
 
 ---
 
