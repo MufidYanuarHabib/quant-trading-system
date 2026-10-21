@@ -7,27 +7,19 @@ Repo ini berisi tools pribadi untuk membantu aktivitas trading, mulai dari menca
 ## 📂 Struktur Folder
 
 - **journal/**  
-  Tools untuk mencatat jurnal trading.  
-  Contoh: `trading_journal.py`
+  Tools untuk mencatat jurnal trading. 
 
 - **backtesting/**  
   Tools/script untuk melakukan backtesting strategi trading.  
-  Contoh: `backtest.py`
 
 - **strategies/**  
   Tools/script untuk strategi trading atau signal generation.  
-  Contoh: `strategy.py`
 
 - **utils/**  
   Helper / tools tambahan untuk mendukung strategi dan manajemen trading.  
-  Contoh:  
-  - `risk_manager.py` → atur risk / stop loss  
-  - `position_size.py` → hitung ukuran posisi  
-  - `math_helpers.py` → fungsi matematika tambahan  
 
 - **data/**  
   Dataset / sample CSV / historical prices.  
-  Contoh: `sample_data.csv`
 
 ---
 
