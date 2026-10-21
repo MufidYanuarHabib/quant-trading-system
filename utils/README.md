@@ -104,6 +104,22 @@ Main Features:
 
 ---
 
+5. win_rate.py
+A win rate calculator for trading strategies.
+
+This tool helps measure the percentage of winning trades relative to the total number of completed trades to evaluate trading performance.
+
+Main Features:
+
+- Winning trades input
+- Losing trades input
+- Total trades calculation
+- Win rate percentage calculation
+- Input validation
+- Formatted results display
+
+---
+
 🎯 Objectives
 
 - Separate trading strategies from utility functions
