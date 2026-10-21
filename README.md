@@ -24,7 +24,6 @@ Repo ini berisi tools pribadi untuk membantu aktivitas trading, mulai dari menca
   - `risk_manager.py` → atur risk / stop loss  
   - `position_size.py` → hitung ukuran posisi  
   - `math_helpers.py` → fungsi matematika tambahan  
-  - `logger.py` → logging aktivitas trading
 
 - **data/**  
   Dataset / sample CSV / historical prices.  
