@@ -104,7 +104,8 @@ Main Features:
 
 ---
 
-5. win_rate.py
+5. win_rate.py 
+
 A win rate calculator for trading strategies.
 
 This tool helps measure the percentage of winning trades relative to the total number of completed trades to evaluate trading performance.
