@@ -4,7 +4,7 @@
 
 This folder contains a collection of utility tools (helper functions) designed to support a quantitative trading system.
 
-The tools inside this folder are not the main trading strategies. Instead, they provide supporting functionality such as risk management, position sizing, indicators, signal filtering, validation, and statistical analysis tools.
+These tools are not the main trading strategies. Instead, they provide supporting functionality such as risk management, position sizing, indicators, signal filtering, validation, and statistical analysis.
 
 The main purpose of this folder is to make the system more modular, organized, reusable, and easier to develop.
 
@@ -12,7 +12,7 @@ The main purpose of this folder is to make the system more modular, organized, r
 
 🧰 Tools
 
-1. math_helper_v2.py
+1. "math_helper_v2.py"
 
 A lightweight Python command-line tool for basic statistical and financial data analysis.
 
@@ -33,7 +33,7 @@ Main Features:
 
 ---
 
-2. risk_management_v1.py
+2. "risk_management_v1.py"
 
 A basic risk management utility designed to calculate risk parameters for a trading system.
 
@@ -45,11 +45,11 @@ Main Features:
 - Position sizing calculation
 - Reward distance calculation
 - Take profit calculation
-- BUY / SELL support
+- BUY/SELL support
 
 ---
 
-3. position_size_trade_spot_v1.py
+3. "position_size_trade_spot_v1.py"
 
 A position size calculator for spot trading without leverage.
 
@@ -64,51 +64,42 @@ Main Features:
 - Risk per unit calculation
 - Position size calculation
 - Capital requirement calculation
-- BUY / SELL support
+- BUY/SELL support
 - Input validation
 - Insufficient balance warning
-- Spot trading focused (no leverage)
+- Spot trading focus (no leverage)
 
 ---
 
-4. risk_reward_v3.py
+4. "risk_reward_v3.py"
 
-A basic Python command-line tool for calculating the risk-to-reward ratio and theoretical breakeven win rate based on entry price, stop loss, and take profit.
+A Python command-line tool for calculating the risk-to-reward ratio and theoretical breakeven win rate based on entry price, stop loss, and take profit.
 
 Main Features:
 
-- Entry price input
-- Stop loss input
-- Take profit input
+- Entry price, stop loss, and take profit input
+- BUY/SELL selection and price validation
 - Risk distance calculation
 - Reward distance calculation
 - Risk-to-reward ratio calculation
 - Breakeven win rate calculation
-- Zero-risk validation
-- Zero-reward validation
-- Repeated calculations without restarting the program
+- Zero-risk and zero-reward validation
+- Position validation
+- Input validation
+- Modular function structure
+- Interactive menu
+- Repeated calculations without restarting
 - Exit command
-- Input Validation
-- Price Validation
-- BUY/SELL Selection
-- Position Validation
-- Function Modularization
-- Interactive Menu
-- Output Formatting
-- Risk-Reward Calculation
-- Improved input validation
-- BUY/SELL price validation
-- Cleaner function structure
 - Verified calculations
-- Improved output formatting
+- Formatted output
 
 ---
 
-5. win_rate.py 
+5. "win_rate.py"
 
 A win rate calculator for trading strategies.
 
-This tool helps measure the percentage of winning trades relative to the total number of completed trades to evaluate trading performance.
+This tool measures the percentage of winning trades relative to the total number of completed trades to evaluate trading performance.
 
 Main Features:
 
