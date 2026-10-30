@@ -95,7 +95,7 @@ Main Features:
 
 ---
 
-5. "win_rate_v2.py"
+5. "win_rate_v3.py"
 
 A win rate calculator for trading strategies.
 
@@ -114,7 +114,13 @@ Main Features:
 - Win rate and loss rate calculations
 - Zero-trade handling
 - Repeat calculation functionality
-
+- Win, Loss & Breakeven Rate Calculation
+- Function Implementation
+- Improved Input Validation
+- Replay Input Validation
+- Modular Program Structure
+- Improved Result Display
+ 
 ---
 
 🎯 Objectives
